@@ -26,7 +26,7 @@ const Header: NextPage<any> = ({ placeholder }) => {
     setSearchInput(e.target.value)
   }
 
-  const handleSelect = ranges => {
+  const handleSelect = (ranges: any) => {
     setStartDate(ranges.selection.startDate)
     setEndDate(ranges.selection.endDate)
   }

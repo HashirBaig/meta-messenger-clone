@@ -14,7 +14,7 @@ const Search: NextPage<any> = () => {
   return (
     <div>
       <Header placeholder={`${capitalize(location)} | ${range} | ${noOfGuest}`} />
-      <main className="flex">
+      <main className="flex mb-7">
         <section className="flex-grow pt-14 px-6">
           <p className="text-xs">
             300+ stays - {range} - for {noOfGuest} people
